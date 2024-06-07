@@ -21,6 +21,7 @@ strong{
     flex-direction: row;
     background-color: hsl(244, 38%, 16%) ;
     margin: 20%;
+    text-align: left;
 }
 .apresentacao__container{
     margin: 7%;
