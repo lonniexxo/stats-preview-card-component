@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    color: hsl(0, 0%, 100%);
+}
+
+strong{
+    color: hsl(277, 64%, 61%);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(244, 38%, 16%) ;
+    margin: 20%;
+}
+.apresentacao__container{
+    margin: 7%;
+    background-color: hsl(244, 38%, 16%) ;
+}
+.apresentacao__titulo{
+    font-size: 40px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+
+.main__paragrafo{
+    font-size: 17px;
+    font-weight: 100;
+    font-family: 'Lexend Deca',sans-serif;
+}
+.container__div{
+    display: flex;
+    align-items: flex-end;
+    gap: 75px;
+    margin-top: 17%;
+}
+.container__footer{
+}
+.footer__tituto{
+    font-family: 'Lexend Deca',sans-serif;
+    font-weight: 400; 
+}
+.footer__paragrafo{
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Lexend Deca',sans-serif;
+}
+
+
+
+.rodape{
+    font-size: 11px;
+    text-align: center;
+}
+.rodape a{
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
